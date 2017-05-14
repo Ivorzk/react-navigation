@@ -13,7 +13,7 @@
     "react-navigation-native-eject": "./lib/react-navigation-native-eject.js"
   },
   "dependencies": {
-    "native-navigation": "^0.1.0"
+    "native-navigation": "ericvicenti/native-navigation#master"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

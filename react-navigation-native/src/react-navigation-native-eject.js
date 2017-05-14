@@ -45,7 +45,7 @@ execSync('tar', ['-xvzf', 'master.zip'], {cwd: boilerplateParentDir});
 
 if (!nativeNavVersion) {
   console.log('Installing native-navigation');
-  execSync('npm', ['i', '--save', 'native-navigation@0.1.0'], {cwd: cwd});
+  execSync('npm', ['i', '--save', 'native-navigation@native-navigation#master'], {cwd: cwd});
 }
 
 if (!doesIOSExist) {
