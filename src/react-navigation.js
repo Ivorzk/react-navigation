@@ -32,6 +32,9 @@ module.exports = {
   get DrawerNavigator() {
     return require('./navigators/DrawerNavigator').default;
   },
+  get NavigatorTypes() {
+    return require('./navigators/NavigatorTypes').default;
+  },
 
   // Routers
   get StackRouter() {

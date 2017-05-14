@@ -53,6 +53,9 @@ export default function createNavigationContainer<T: *>(
     } = null;
 
     static router = Component.router;
+    static navigatorConfig = Component.navigatorConfig;
+    static routeConfigs = Component.routeConfigs;
+    static navigatorType = Component.navigatorType;
 
     constructor(props: Props<T>) {
       super(props);

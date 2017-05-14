@@ -1,0 +1,30 @@
+{
+  "name": "react-navigation-native",
+  "version": "0.1.0-alpha.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel src/ --source-maps --out-dir lib/ --watch",
+    "build": "babel src/ --source-maps --out-dir lib/"
+  },
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "react-navigation-native-eject": "./lib/react-navigation-native-eject.js"
+  },
+  "dependencies": {
+    "native-navigation": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react-workspace-scripts": "1.0.0-alpha.0",
+    "lerna": "2.0.0-beta.38"
+  }
+}
